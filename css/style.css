@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+/*----------------------
+CSS
+作成日 : 2024/12/20
+作成者 : k.yamashita
+名称 : 株式会社スキューバマリン様webサイト
+------------------------ */
+
+/* 全体 */
+html {
+  font-size: 100%;
+  color: #4d4d4d
+}
+
+body {
+  font-family: "Hiragino Sans", "Meiryo", sans-serif;
+  line-height: 1.6;
+  width: 100%;
+  font-size: 100%;
+  background-color: #f5f5f5;
+  color: #4d4d4d;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #4d4d4d
+}
+
+ul {
+  list-style-type: none;
+}
+  
+#header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+  
+#header .header-long-block {
+  display: flex;
+  align-items: center;
+  background-color: #00a0e9;
+  height: 30px;
+  /* margin-bottom: 30px; */
+}
+
+#header .header-long-block .header-long-block-in {
+  margin-left: 10%;
+  text-align: center;
+}
+
+#header .header-long-block .header-long-block-in p {
+  color: #fff;
+}
+
+#header .header-container {
+  padding: 0.9% 1% 0.9% 1%;
+  background-color: #fff;
+}
+
+#header .header-container .header-container-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0.5%;
+}
+
+#header .header-container .header-container-in a {
+  display: flex;
+  align-items: center;
+}
+
+#header .header-container .header-container-in img {
+  /* display: block; */
+  margin: 0;
+}
+
+#header .header-container .header-container-in .header-contact {
+  margin-right: 2%;
+  display: flex;
+  align-items: center;
+}
+
+#header .header-main-visual {
+  padding: 5px 4px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header .header-main-visual .header-main-visual-in {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header .header-main-visual .header-main-visual-in img {
+  width: 100%;
+}
+
+#header .header-nav {
+  width: 100%;
+  background-color: #fff;
+  padding: 1.1% 0;
+}
+
+#header .header-nav .nav-in {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#header .header-nav .menu-top {
+  display: flex;
+}
+
+#header .header-nav .nav-in .menu-top .menu-item {
+  width: 14.3%;
+  padding: 1.1% 0;
+  border-left: 1px solid #C6C6C6;
+  text-align: center;
+}
+
+#header .header-nav .nav-in .menu-top .menu-item:last-child {
+  border-right: 1px solid #C6C6C6;
+}
+
+#header .header-nav .nav-in .menu-top .menu-item a {
+  font-weight: 700;
+  font-size: 1.1vw;
+}
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+  }
+  
+  .nav ul li {
+    margin: 0 10px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .news, .courses, .testimonials {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1100px;
+    background: #fff;
+  }
+  
+  .courses .course-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .courses .course {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .course img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #0057a7;
+    color: #fff;
+  }
+  
