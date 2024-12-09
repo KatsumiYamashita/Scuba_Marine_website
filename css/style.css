@@ -48,7 +48,7 @@ img {
   display: flex;
   align-items: center;
   background-color: #00a0e9;
-  height: 30px;
+  height: 44px;
   /* margin-bottom: 30px; */
 }
 
@@ -59,10 +59,11 @@ img {
 
 #header .header-long-block .header-long-block-in p {
   color: #fff;
+  font-size: 20px;
 }
 
 #header .header-container {
-  padding: 0.9% 1% 0.9% 1%;
+  padding: 1.2%;
   background-color: #fff;
 }
 
@@ -73,20 +74,44 @@ img {
   margin-right: 0.5%;
 }
 
+#header .header-container .header-container-in .header-logo {
+  width: 23%;
+}
+
 #header .header-container .header-container-in .header-logo a {
   display: flex;
   align-items: center;
 }
 
 #header .header-container .header-container-in .header-logo img {
-  /* display: block; */
-  margin: 0;
+  width: 100%;
+  /* margin: 0; */
+}
+
+#header .header-container .header-container-in .header-container-in {
+  width: 40%;
 }
 
 #header .header-container .header-container-in .header-contact {
+  /* margin-right: 2%; */
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+#header .header-container .header-container-in .header-contact img{
+  width: 100%;
+}
+
+#header .header-container .header-container-in .header-reservation {
   margin-right: 2%;
   display: flex;
   align-items: center;
+  width: 50%;
+}
+
+#header .header-container .header-container-in .header-reservation img{
+  width: 100%;
 }
 
 #header .header-main-visual {
@@ -247,3 +272,43 @@ img {
   width: 30%;
 }
 
+#main .wrapper .left-column #testimonials .section-contents .testimonial-container {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  display: flex;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+#main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-img {
+  margin-right: 30px;
+  width: 25%;
+}
+
+#main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-img img{
+  width: 100%;
+}
+
+#main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription h3 {
+  font-size: 32px;
+  letter-spacing: 3px;
+  color: #00a0e9;
+  padding-bottom: 5px;
+  width: 100%;
+  border-bottom: 2px solid #d1d1d1;
+}
+
+#main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription p {
+  font-size: 22px;
+}
+
+#main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription p:last-child {
+  text-align: right;
+}
