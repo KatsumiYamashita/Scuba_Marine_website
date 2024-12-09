@@ -165,3 +165,20 @@ img {
 #main .wrapper .right-column {
   width: 20%;
 }
+
+#main .wrapper .left-column #news .section-title {
+  width: 100%;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+}
+
+#main .wrapper .left-column #news .section-title h2 {
+  margin-top: 2px;
+  padding-left: 10px;
+  letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+  border-left: 8px solid #00a0e9;
+}
