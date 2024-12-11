@@ -7,7 +7,10 @@ CSS
 名称 : 株式会社スキューバマリン様webサイト
 ------------------------ */
 
-/* 全体 */
+/* --------------------------------------
+全体 
+-----------------------------------------*/
+
 html {
   font-size: 100%;
   color: #4d4d4d
@@ -37,6 +40,10 @@ img {
   height: auto;
   display: block;
 }
+
+/* --------------------------------------
+#header
+-----------------------------------------*/
   
 #header {
   display: flex;
@@ -110,13 +117,21 @@ img {
   width: 50%;
 }
 
-#header .header-container .header-container-in .header-reservation a {
+#header .header-container .header-container-in .header-reservation .reservation-logo {
   display: inline-block;
   width: 100%;
+  background: #000;
+  border-radius: 8px;
 }
 
-#header .header-container .header-container-in .header-reservation img{
+#header .header-container .header-container-in .header-reservation .reservation-logo img {
+  display: block;
   width: 100%;
+  transition: all 0.4s;
+}
+
+#header .header-container .header-container-in .header-reservation a:hover img{
+  opacity: 0.7;
 }
 
 #header .header-main-visual {
@@ -178,6 +193,10 @@ img {
 #header .header-nav .nav-in .menu-top .menu-item:last-child {
   border-right: 1px solid #C6C6C6;
 }
+
+/* --------------------------------------
+#main
+-----------------------------------------*/
 
 #main .wrapper {
   width: 80%;
@@ -280,16 +299,20 @@ img {
   background-color: #4d4d4d;
 }
 
-#main .wrapper .left-column #courses .section-contents .course-list-container .course-content:hover {
-  
+#main .wrapper .left-column #courses .section-contents .course-list-container .course-content {
+  width: 30%;
 }
 
 #main .wrapper .left-column #courses .section-contents .course-list-container .course-content img {
   width: 100%;
 }
 
-#main .wrapper .left-column #courses .section-contents .course-list-container .course-content {
-  width: 30%;
+#main .wrapper .left-column #courses .section-contents .course-list-container .course-content a img {
+  transition: all 0.4s;
+}
+
+#main .wrapper .left-column #courses .section-contents .course-list-container .course-content a:hover img {
+  opacity: 0.7;
 }
 
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container {
@@ -357,9 +380,22 @@ img {
   margin-left: 5%;
 }
 
-#main .wrapper .left-column .main-contact-container .main-contact-right img {
+#main .wrapper .left-column .main-contact-container .main-contact-right .reservation-logo {
+  display: inline-block;
+  background: #000;
+  border-radius: 7px;
   width: 80%;
+}
+
+#main .wrapper .left-column .main-contact-container .main-contact-right .reservation-logo img {
+  width: 100%;
   margin: 0 auto;
+  display: block;
+  transition: all 0.4s;
+}
+
+#main .wrapper .left-column .main-contact-container .main-contact-right .reservation-logo:hover img {
+  opacity: 0.7;
 }
 
 #main .wrapper .right-column .reservation {
@@ -367,8 +403,20 @@ img {
   margin-bottom: 50px;
 }
 
-#main .wrapper .right-column .reservation img {
+#main .wrapper .right-column .reservation .reservation-logo {
+  display: inline-block;
+  background: #000;
+  border-radius: 7px;
+}
+
+#main .wrapper .right-column .reservation .reservation-logo img {
+  display: block;
   width: 100%;
+  transition: all 0.4s;
+}
+
+#main .wrapper .right-column .reservation .reservation-logo:hover img {
+  opacity: 0.7;
 }
 
 #main .wrapper .right-column section {
@@ -447,6 +495,10 @@ img {
 #main .wrapper .right-column .online-store img {
   width: 100%;
 }
+
+/* --------------------------------------
+#footer
+-----------------------------------------*/
 
 #footer .footer-nav {
   width: 100%;
