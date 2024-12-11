@@ -55,6 +55,7 @@ img {
   display: flex;
   align-items: center;
   background-color: #00a0e9;
+  padding: 2.2px 0;
   /* height: 6%; */
   /* margin-bottom: 30px; */
 }
@@ -66,11 +67,11 @@ img {
 
 #header .header-long-block .header-long-block-in p {
   color: #fff;
-  font-size: 110%;
+  font-size: 127%;
 }
 
 #header .header-container {
-  padding: 1.2%;
+  padding: 1.4%;
   background-color: #fff;
 }
 
@@ -82,7 +83,7 @@ img {
 }
 
 #header .header-container .header-container-in .header-logo {
-  width: 25%;
+  width: 23.5%;
 }
 
 #header .header-container .header-container-in .header-logo a {
@@ -101,27 +102,28 @@ img {
 
 #header .header-container .header-container-in .header-contact {
   margin-right: 2%;
+  justify-content: flex-end;
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 46.5%;
 }
 
 #header .header-container .header-container-in .header-contact img{
-  width: 100%;
+  width: 92%;
 }
 
 #header .header-container .header-container-in .header-reservation {
   /* margin-right: 2%; */
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 53.5%;
 }
 
 #header .header-container .header-container-in .header-reservation .reservation-logo {
   display: inline-block;
   width: 100%;
   background: #000;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 #header .header-container .header-container-in .header-reservation .reservation-logo img {
@@ -155,35 +157,38 @@ img {
 
 #header .header-nav {
   width: 100%;
+  height: 147.4px;
   background-color: #fff;
-  padding: 1.1% 0;
+  box-shadow: 0 10px 30px -20px #000;
 }
 
 #header .header-nav .nav-in {
   margin: 0 auto;
   width: 80%;
+  height: 100%;
+  padding: 1.75% 0;
 }
 
 #header .header-nav .menu-top {
   display: flex;
+  height: 100%;
 }
 
 #header .header-nav .nav-in .menu-top .menu-item {
   width: 14.3%;
-  height: 60px;
-  /* padding: 1.1% 0; */
-  border-left: 1px solid #C6C6C6;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-left: 2px solid #C6C6C6;
 }
 
 #header .header-nav .nav-in .menu-top .menu-item a{
   width: 100%;
-  height: 100%;
   display: inline-block;
   transition: all 0.4s;
-  line-height: 60px;
   text-align: center;
   font-weight: 700;
-  font-size: 110%;
+  font-size: 150%;
 }
 
 #header .header-nav .nav-in .menu-top .menu-item a:hover {
@@ -191,7 +196,7 @@ img {
 }
 
 #header .header-nav .nav-in .menu-top .menu-item:last-child {
-  border-right: 1px solid #C6C6C6;
+  border-right: 2px solid #C6C6C6;
 }
 
 /* --------------------------------------
@@ -215,7 +220,7 @@ img {
 }
 
 #main .wrapper .left-column .left-column-section {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 #main .wrapper .left-column .section-title {
@@ -228,32 +233,34 @@ img {
 }
 
 #main .wrapper .left-column .section-title h2 {
-  /* margin-top: 2px; */
-  padding-left: 12px;
+  padding-left: 15px;
   letter-spacing: 1.5px;
   display: flex;
   align-items: center;
-  line-height: 25px;
-  border-left: 6px solid #00a0e9;
+  line-height: 32px;
+  border-left: 8px solid #00a0e9;
+  font-size: 200%;
+  font-weight: 600;
 }
 
 #main .wrapper .left-column #news .section-contents .news-list .news-date {
   color: #A0A0A0;
-  margin-bottom: 4px;
-  font-size: 110%;
-  font-weight: 500;
+  margin-bottom: 3.5px;
+  font-size: 140%;
+  font-weight: 300;
 }
 
 #main .wrapper .left-column #news .section-contents .news-list .news-contents {
   color: #00a0e9;
-  font-size: 170%;
+  font-size: 205%;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 #main .wrapper .left-column #news .section-contents .news-updates {
   width: 100%;
   text-align: right;
+  margin-top: 45px;
 }
 
 #main .wrapper .left-column #news .button {
@@ -262,9 +269,9 @@ img {
   justify-content: center;
   color: #fff;
   background-color: #f39400;
-  padding: 1.3% 3% 1.3% 6%;
+  padding: 1.25% 3% 1.25% 5%;
   border-radius: 6px;
-  font-size: 100%;
+  font-size: 120%;
   font-weight: 500;
   transition: background-color 0.3s ease;
 }
@@ -284,7 +291,8 @@ img {
 }
 
 #main .wrapper .left-column #courses .section-contents .description p {
-  font-size: 18px;
+  font-size: 150%;
+  font-weight: 300;
 }
 
 #main .wrapper .left-column #courses .section-contents .course-list-container {
@@ -293,22 +301,17 @@ img {
 }
 
 #main .wrapper .left-column #courses .section-contents .course-list-container .course-content {
-  width: 100%;
   transition: all 0.4s;
+  width: 31.6%;
   z-index: 10;
   background-color: #4d4d4d;
 }
 
-#main .wrapper .left-column #courses .section-contents .course-list-container .course-content {
-  width: 30%;
-}
-
-#main .wrapper .left-column #courses .section-contents .course-list-container .course-content img {
-  width: 100%;
-}
-
 #main .wrapper .left-column #courses .section-contents .course-list-container .course-content a img {
   transition: all 0.4s;
+  width: 100%;
+  display: block;
+  border: 2px solid #C6C6C6;
 }
 
 #main .wrapper .left-column #courses .section-contents .course-list-container .course-content a:hover img {
@@ -318,15 +321,15 @@ img {
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container {
   width: 100%;
   background-color: #fff;
-  border: 1px solid #d1d1d1;
+  border: 1.7px solid #d1d1d1;
   display: flex;
-  padding: 40px;
+  padding: 3.6%;
   margin-bottom: 30px;
 }
 
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-img {
   margin-right: 30px;
-  width: 400px;
+  width: 39%;
   height: 100%;
 }
 
@@ -342,8 +345,9 @@ img {
 }
 
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription h3 {
-  font-size: 32px;
-  letter-spacing: 3px;
+  font-size: 195%;
+  font-weight: 600;
+  letter-spacing: 1px;
   color: #00a0e9;
   padding-bottom: 5px;
   width: 100%;
@@ -406,7 +410,7 @@ img {
 #main .wrapper .right-column .reservation .reservation-logo {
   display: inline-block;
   background: #000;
-  border-radius: 7px;
+  border-radius: 9px;
 }
 
 #main .wrapper .right-column .reservation .reservation-logo img {
@@ -492,8 +496,20 @@ img {
   width: 100%;
 }
 
-#main .wrapper .right-column .online-store img {
+#main .wrapper .right-column .online-store .online-store-logo {
   width: 100%;
+  display: inline-block;
+  background: #000;
+}
+
+#main .wrapper .right-column .online-store .online-store-logo img {
+  width: 100%;
+  display: block;
+  transition: all 0.4s;
+}
+
+#main .wrapper .right-column .online-store .online-store-logo:hover img {
+  opacity: 0.7;
 }
 
 /* --------------------------------------
