@@ -14,6 +14,7 @@ HTML
   <link rel="icon" href="./source/img/">
   <title>スキューバ・マリン</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="">
 </head>
 <body>
   <header id="header">
@@ -29,7 +30,7 @@ HTML
                     <img class="site-name" src="./source/img/logo.svg" alt="スキューバ・マリン">
                 </a>
             </h1>
-            <div class="header-container-in">
+            <div class="header-container-in-in">
                 <div class="header-container-content header-contact">
                     <img src="./source/img/tel-pc.png" alt="連絡先">
                 </div>
@@ -42,9 +43,10 @@ HTML
         </div>
     </div>
     <div class="header-main-visual">
-        <div class="header-main-visual-in">
+        <picture class="header-main-visual-in">
+            <source media="(max-width: 640px)" srcset="./source/img/mainvisual-sp.jpg">
             <img src="./source/img/mainvisual-pc.jpg" alt="スキューバマリン">
-        </div>
+        </picture>
     </div>
     <nav class="header-nav">
         <div class="nav-in">
@@ -203,8 +205,7 @@ HTML
                 </div>
                 <div class="right-section-container youtube-container">
                     <iframe 
-                    width="100%"
-                    height="238.110" 
+                    class="youtube"
                     src="https://www.youtube.com/embed/a_PdyNmGWSo" 
                     title="YouTube video player" 
                     frameborder="0" 
