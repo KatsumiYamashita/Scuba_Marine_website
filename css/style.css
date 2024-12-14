@@ -320,6 +320,7 @@ img {
 
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container {
   width: 100%;
+  height: 38vh;
   background-color: #fff;
   border: 1.7px solid #d1d1d1;
   display: flex;
@@ -330,19 +331,20 @@ img {
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-img {
   margin-right: 40px;
   width: 420px;
-  height: 100%;
+  /* height: 100%; */
 }
 
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-img img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
+
 
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription {
   display: flex;
   flex-direction: column;
-  /* height: 100%; */
-  justify-content: space-between;
+  height: 100%;
+  /* justify-content: space-between; */
 }
 
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription h3 {
@@ -353,6 +355,7 @@ img {
   padding-bottom: 5px;
   width: 100%;
   border-bottom: 2px solid #d1d1d1;
+  margin-bottom: 30px;
 }
 
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription p {
@@ -363,6 +366,7 @@ img {
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription p:last-child {
   font-size: 150%;
   text-align: right;
+  margin-top: auto;
   justify-content: flex-end;
 }
 
@@ -370,39 +374,40 @@ img {
   width: 100%;
   background-color: #fff;
   border: 1px solid #d1d1d1;
-  padding: 50px;
-  margin-bottom: 30px;
+  padding: 5%;
+  /* margin-bottom: 30px; */
 }
 
 #main .wrapper .left-column .main-contact-container .main-contact-container-in {
   width: 100%;
   display: flex;
   /* align-items: left; */
-  /* justify-content: center; */
+  justify-content: space-between;
 }
 
 #main .wrapper .left-column .main-contact-container .main-contact-container-in .main-contact-left {
   width: 40%;
   display: flex;
-  padding-right: 49.1px;
+  /* padding-right: 4%; */
   border-right: 2px solid #d1d1d1;
 }
 
 #main .wrapper .left-column .main-contact-container .main-contact-left img {
-  width: 100%;
-  /* margin-left: 5%; */
+  width: 80%;
+  height: 100%;
+  margin-right: 5%;
 }
 
 #main .wrapper .left-column .main-contact-container .main-contact-right {
-  width: 50%;
-  padding-left: 49.1px;
+  width: 60%;
+  /* padding-left: 49.1px; */
 }
 
-#main .wrapper .left-column .main-contact-container .main-contact-right .reservation-logo {
+#main .wrapper .left-column .main-contact-container .main-contact-right {
   display: inline-block;
   background: #000;
   border-radius: 7px;
-  width: 100%;
+  width: 50%;
 }
 
 #main .wrapper .left-column .main-contact-container .main-contact-right .reservation-logo img {
