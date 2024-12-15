@@ -808,19 +808,17 @@ img {
   #header .header-container .header-container-in .header-container-in-in {
     display: flex;
     flex-direction: column;
-    align-items: right;
     margin: 0;
   }
 
   #header .header-container .header-container-in .header-container-in-in .header-contact {
-    align-items: right;
-    margin: 0 0 10px 0;
-    width: 200px;
+    margin: 0 0 10px auto;
+    max-width: 200px;
   }
 
   #header .header-container .header-container-in .header-container-in-in .header-reservation {
-    align-items: right;
-    width: 200px;
+    margin: 0 0 0 auto;
+    max-width: 200px;
   }
 
   #header .header-container .header-container-in .header-container-in-in .header-reservation .reservation-logo {
@@ -911,6 +909,10 @@ img {
   #main .wrapper .right-column .reservation {
     width: 60%;
     margin:0 auto 50px auto;
+  }
+
+  #main .wrapper .right-column .reservation .reservation-logo {
+    border-radius: 9px;
   }
 
   #main .wrapper .right-column section .right-section-title {
