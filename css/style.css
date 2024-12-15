@@ -795,6 +795,143 @@ img {
 
 }
 
+@media screen and (max-width: 970px) {
+
+  #main .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  #main .wrapper .left-column {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  #main .wrapper .left-column #news .button {
+    padding: 1.2% 2.5% 1.2% 4%;
+    border-radius: 6px;
+    font-size: 100%;
+    font-weight: 400;
+  }
+  
+  #main .wrapper .left-column #courses .section-contents .description p {
+    font-size: 110%;
+  }
+
+  #main .wrapper .left-column #courses .section-contents .course-list-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #main .wrapper .left-column #courses .section-contents .course-list-container .course-content {
+    width: 70%;
+    margin:0 auto 30px auto;
+  }
+
+  #main .wrapper .left-column #courses .section-contents .course-list-container .course-content:last-child {
+    margin-bottom:0;
+  }
+  
+  #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-img {
+    min-width: 265px;
+  }
+
+  #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription h3 {
+    font-size: 140%;
+    margin-bottom: 20px;
+  }
+  
+  #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription p {
+    font-size: 132%;
+  }
+  
+  #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription p:last-child {
+    font-size:110%;
+  }
+
+  #main .wrapper .left-column .main-contact-container {
+    display: none;
+  }
+
+  #main .wrapper .right-column {
+    width: 100%;
+  }
+
+  #main .wrapper .right-column .reservation {
+    width: 60%;
+    margin:0 auto 50px auto;
+  }
+
+  #main .wrapper .right-column .reservation .reservation-logo {
+    border-radius: 15px;
+  }
+
+  #main .wrapper .right-column section {
+    margin-bottom: 60px;
+  }
+
+  #main .wrapper .right-column section .right-section-title {
+    background-color: #e7ecd5;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+  }
+
+  #main .wrapper .right-column section .right-section-title h3 {
+    line-height: 32px;
+    font-size: 180%;
+  }
+
+  #main .wrapper .right-column #youtube-link .youtube-container .youtube{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #main .wrapper .right-column #store-information .right-section-container p {
+    font-size: 110%;
+  }
+
+  #main .wrapper .right-column #staff-blog .staff-blog-container dt{
+    font-size: 100%;
+  }
+
+  #main .wrapper .right-column #staff-blog .staff-blog-container dd a{
+    font-size: 120%;
+  }
+
+  #main .wrapper .right-column .gray-zone {
+    width: 80%;
+    margin: 0 auto 60px auto;
+  }
+
+  #main .wrapper .right-column .online-store {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #footer .footer-nav {
+    height: 70px;
+  }
+
+  #footer .footer-nav .nav-in {
+    padding: 15px;
+  }
+
+  #footer .footer-nav .nav-in .menu-top .menu-item a {
+    font-size: 1.8vw;
+  }
+
+  #footer .footer-container .footer-container-in .footer-contact img{
+    width: 90%;
+    margin: 0 5% 0 0;
+  }
+
+  #footer .footer-container p {
+    font-size: 100%;
+  }
+
+}
+
 @media screen and (max-width: 640px) {
 
   #header .header-long-block .header-long-block-in p {
@@ -915,6 +1052,10 @@ img {
     border-radius: 9px;
   }
 
+  #main .wrapper .right-column section {
+    margin-bottom: 60px;
+  }
+
   #main .wrapper .right-column section .right-section-title {
     background-color: #e7ecd5;
     padding: 10px 15px;
@@ -924,54 +1065,6 @@ img {
   #main .wrapper .right-column section .right-section-title h3 {
     line-height: 32px;
     font-size: 160%;
-  }
-
-  #main .wrapper .right-column #youtube-link .youtube-container .youtube{
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  #main .wrapper .right-column #store-information .right-section-container p {
-    font-size: 110%;
-  }
-
-  #main .wrapper .right-column #staff-blog .staff-blog-container dt{
-    font-size: 100%;
-  }
-
-  #main .wrapper .right-column #staff-blog .staff-blog-container dd a{
-    font-size: 120%;
-  }
-
-  #main .wrapper .right-column .gray-zone {
-    width: 80%;
-    margin: 0 auto 60px auto;
-  }
-
-  #main .wrapper .right-column .online-store {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  #footer .footer-nav {
-    height: 70px;
-  }
-
-  #footer .footer-nav .nav-in {
-    padding: 15px;
-  }
-
-  #footer .footer-nav .nav-in .menu-top .menu-item a {
-    font-size: 1.8vw;
-  }
-
-  #footer .footer-container .footer-container-in .footer-contact img{
-    width: 90%;
-    margin: 0 5% 0 0;
-  }
-
-  #footer .footer-container p {
-    font-size: 100%;
   }
 
 }
