@@ -935,7 +935,7 @@ img {
 @media screen and (max-width: 640px) {
 
   #header .header-long-block .header-long-block-in p {
-    font-size: 80%;
+    font-size: 70%;
   }
 
   #header .header-container .header-container-in .header-logo {
@@ -960,6 +960,13 @@ img {
 
   #header .header-container .header-container-in .header-container-in-in .header-reservation .reservation-logo {
     border-radius: 5px;
+  }
+
+  #header .header-main-visual .header-main-visual-in img {
+    width: 100%;
+    /* max-width: 1920px; */
+    height: 364px;
+    object-fit: none;
   }
 
   #header .header-nav .nav-in .menu-top .menu-item a{
@@ -1033,6 +1040,162 @@ img {
   
   #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription p:last-child {
     font-size: 90%;
+  }
+
+  #main .wrapper .left-column .main-contact-container {
+    display: none;
+  }
+
+  #main .wrapper .right-column {
+    width: 100%;
+  }
+
+  #main .wrapper .right-column .reservation {
+    width: 60%;
+    margin:0 auto 50px auto;
+  }
+
+  #main .wrapper .right-column .reservation .reservation-logo {
+    border-radius: 9px;
+  }
+
+  #main .wrapper .right-column section {
+    margin-bottom: 60px;
+  }
+
+  #main .wrapper .right-column section .right-section-title {
+    background-color: #e7ecd5;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+  }
+
+  #main .wrapper .right-column section .right-section-title h3 {
+    line-height: 32px;
+    font-size: 160%;
+  }
+
+}
+
+@media screen and (max-width: 590px) {
+
+  #header .header-long-block .header-long-block-in p {
+    font-size: 50%;
+  }
+
+  #header .header-container .header-container-in .header-logo {
+    width: 900px;
+  }
+
+  #header .header-container .header-container-in .header-container-in-in {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  #header .header-nav .menu-top {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #header .header-nav .nav-in .menu-top .menu-item {
+    width: 80px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border-left: 2px solid #C6C6C6;
+    padding: 1% 0;
+  }
+  
+  #header .header-nav .nav-in .menu-top .menu-item a{
+    width: 100%;
+    display: inline-block;
+    transition: all 0.4s;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.0vw;
+  }
+
+  #main .wrapper {
+    margin-bottom: 40px;
+  }
+
+  #main .wrapper .left-column .left-column-section {
+    margin-bottom: 40px;
+  }
+
+  #main .wrapper .left-column .section-title {
+    padding: 8px 10px;
+  }
+  
+  #main .wrapper .left-column .section-title h2 {
+    font-size: 140%;
+  }
+
+  #main .wrapper .left-column #news .section-contents .news-list .news-date {
+    font-size: 80%;
+  }
+
+  #main .wrapper .left-column #news .section-contents .news-list .news-contents {
+    font-size: 120%;
+    margin-bottom: 15px;
+  }
+
+  #main .wrapper .left-column #news .section-contents .news-updates {
+    margin-top: 25px;
+  }
+
+  #main .wrapper .left-column #news .button {
+    padding: 1.2% 2.5% 1.2% 6%;
+    border-radius: 6px;
+    font-size: 80%;
+    font-weight: 400;
+  }
+  
+  #main .wrapper .left-column #courses .section-contents .description p {
+    font-size: 110%;
+  }
+
+  #main .wrapper .left-column #courses .section-contents .course-list-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #main .wrapper .left-column #courses .section-contents .course-list-container .course-content {
+    width: 70%;
+    margin:0 auto 30px auto;
+  }
+
+  #main .wrapper .left-column #courses .section-contents .course-list-container .course-content:last-child {
+    margin-bottom:0;
+  }
+
+  #main .wrapper .left-column #testimonials .section-contents .testimonial-container {
+    flex-direction: column;
+    /* padding: 3.6%; */
+  }
+  
+  #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-img {
+    width: 70%;
+    margin: 20px auto 30px auto;
+  }
+
+  #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription {
+    margin: 0 auto;
+    padding: 0 2%;
+  }
+
+  #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription h3 {
+    font-size: 100%;
+  }
+  
+  #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription p {
+    margin-bottom: 30px;
+    font-size: 90%;
+  }
+  
+  #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription p:last-child {
+    font-size: 80%;
+    margin-bottom: 10px;
   }
 
   #main .wrapper .left-column .main-contact-container {
