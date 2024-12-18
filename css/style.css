@@ -50,26 +50,30 @@ img {
   flex-direction: column;
   margin-bottom: 45px;
 }
+
+/* --------------------------------------
+#header .header-long-block
+-----------------------------------------*/
   
 #header .header-long-block {
   display: flex;
   align-items: center;
   background-color: #00a0e9;
   padding: 2.2px 0;
-  /* height: 6%; */
-  /* margin-bottom: 30px; */
 }
 
 #header .header-long-block .header-long-block-in {
   margin-left: 10%;
-  text-align: center;
 }
 
 #header .header-long-block .header-long-block-in p {
   color: #fff;
   font-size: 124%;
-  /* font-size: 1.06vw; */
 }
+
+/* --------------------------------------
+#header .header-container
+-----------------------------------------*/
 
 #header .header-container {
   padding: 1.4%;
@@ -80,13 +84,11 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-right: 0.5%; */
 }
 
 #header .header-container .header-container-in .header-logo {
   display: block;
   width: 445px;
-  /* width: 23.5%; */
 }
 
 #header .header-container .header-container-in .header-logo a {
@@ -101,7 +103,6 @@ img {
 #header .header-container .header-container-in .header-container-in-in {
   width: 800px;
   margin-left: 10%;
-  /* width: 50%; */
 }
 
 #header .header-container .header-container-in .header-container-in-in {
@@ -123,7 +124,6 @@ img {
 }
 
 #header .header-container .header-container-in .header-container-in-in .header-reservation {
-  /* margin-right: 2%; */
   display: flex;
   align-items: center;
   width: 53.5%;
@@ -146,19 +146,16 @@ img {
   opacity: 0.7;
 }
 
+/* --------------------------------------
+#header .header-main-visual
+-----------------------------------------*/
+
 #header .header-main-visual {
   padding: 5px 4px;
-  /* width: 100%; */
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 #header .header-main-visual .header-main-visual-in {
   width: 100%;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 #header .header-main-visual .header-main-visual-in img {
@@ -168,9 +165,12 @@ img {
   object-fit: cover;
 }
 
+/* --------------------------------------
+#header .header-nav
+-----------------------------------------*/
+
 #header .header-nav {
   width: 100%;
-  /* height: 147.4px; */
   background-color: #fff;
   box-shadow: 0 10px 30px -20px #000;
 }
@@ -224,13 +224,13 @@ img {
   padding:0 3% 100px 3%;
 }
 
+/* --------------------------------------
+#main .wrapper .left-column
+-----------------------------------------*/
+
 #main .wrapper .left-column {
   width: 73%;
   margin-right: 2%;
-}
-
-#main .wrapper .right-column {
-  width: 25%;
 }
 
 #main .wrapper .left-column .left-column-section {
@@ -256,6 +256,10 @@ img {
   font-size: 200%;
   font-weight: 600;
 }
+
+/* --------------------------------------
+#main .wrapper .left-column #news
+-----------------------------------------*/
 
 #main .wrapper .left-column #news .section-contents .news-list .news-date {
   color: #A0A0A0;
@@ -300,6 +304,10 @@ img {
   background-color: #d07c00;
 }
 
+/* --------------------------------------
+#main .wrapper .left-column #courses
+-----------------------------------------*/
+
 #main .wrapper .left-column #courses .section-contents .description {
   margin-bottom: 30px;
 }
@@ -334,7 +342,6 @@ img {
 
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container {
   width: 100%;
-  /* height: 38vh; */
   background-color: #fff;
   border: 1.7px solid #d1d1d1;
   display: flex;
@@ -342,16 +349,16 @@ img {
   margin-bottom: 30px;
 }
 
+/* --------------------------------------
+#main .wrapper .left-column #testimonials
+-----------------------------------------*/
+
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-img {
-  /* margin-right: 40px; */
   min-width: 275px;
-  /* width: auto; */
-  /* height: 100%; */
 }
 
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-img img {
   width: 100%; */
-  /* height: 100%; */
 }
 
 
@@ -359,8 +366,6 @@ img {
   display: flex;
   flex-direction: column;
   margin-left: 30px;
-  /* height: 100%; */
-  /* justify-content: space-between; */
 }
 
 #main .wrapper .left-column #testimonials .section-contents .testimonial-container .testimonial-desctription h3 {
@@ -386,39 +391,37 @@ img {
   justify-content: flex-end;
 }
 
+/* --------------------------------------
+#main .wrapper .left-column .main-contact-container
+-----------------------------------------*/
+
 #main .wrapper .left-column .main-contact-container {
   width: 100%;
   background-color: #fff;
   border: 1px solid #d1d1d1;
   padding: 5%;
-  /* margin-bottom: 30px; */
 }
 
 #main .wrapper .left-column .main-contact-container .main-contact-container-in {
   width: 100%;
   display: flex;
-  /* align-items: left; */
   justify-content: space-between;
 }
 
 #main .wrapper .left-column .main-contact-container .main-contact-container-in .main-contact-left {
   width: 45%;
   display: flex;
-  /* padding-right: 4%; */
   border-right: 2px solid #d1d1d1;
 }
 
 #main .wrapper .left-column .main-contact-container .main-contact-container-in .main-contact-left img {
   width: 90%;
-  /* height: auto; */
-  /* aspect-ratio: 446/78; */
   object-fit: contain;
   margin-right: 1%;
 }
 
 #main .wrapper .left-column .main-contact-container .main-contact-right {
   width: 55%;
-  /* padding-left: 49.1px; */
 }
 
 #main .wrapper .left-column .main-contact-container .main-contact-right {
@@ -438,6 +441,18 @@ img {
 #main .wrapper .left-column .main-contact-container .main-contact-right .reservation-logo:hover img {
   opacity: 0.7;
 }
+
+/* --------------------------------------
+#main .wrapper .right-column
+-----------------------------------------*/
+
+#main .wrapper .right-column {
+  width: 25%;
+}
+
+/* --------------------------------------
+#main .wrapper .right-column .reservation
+-----------------------------------------*/
 
 #main .wrapper .right-column .reservation {
   width: 100%;
@@ -461,6 +476,10 @@ img {
   opacity: 0.7;
 }
 
+/* --------------------------------------
+#main .wrapper .right-column section
+-----------------------------------------*/
+
 #main .wrapper .right-column section {
   margin-bottom: 35px;
   width: 100%;
@@ -472,10 +491,8 @@ img {
 
 #main .wrapper .right-column section .right-section-title {
   width: 100%;
-  /* padding: 20px 15px; */
   display: flex;
   align-items: center;
-  /* background-color: #e7ecd5; */
   margin-bottom: 10px;
 }
 
@@ -490,11 +507,19 @@ img {
   font-weight: 600;
 }
 
+/* --------------------------------------
+#main .wrapper .right-column #youtube-link
+-----------------------------------------*/
+
 #main .wrapper .right-column #youtube-link .youtube-container .youtube{
   width: 100%;
   height: auto;
   aspect-ratio: 376/238;
 }
+
+/* --------------------------------------
+#main .wrapper .right-column #store-information
+-----------------------------------------*/
 
 #main .wrapper .right-column #store-information .right-section-container img {
   width: 100%;
@@ -506,6 +531,10 @@ img {
   margin-bottom: 15px;
   font-weight: 300;
 }
+
+/* --------------------------------------
+#main .wrapper .right-column #staff-blog
+-----------------------------------------*/
 
 #main .wrapper .right-column #staff-blog .staff-blog-container dt,
 #main .wrapper .right-column #staff-blog .staff-blog-container dd a{
@@ -527,9 +556,12 @@ img {
 #main .wrapper .right-column #staff-blog .staff-blog-container dd a{
   font-size: 1.3vw;
   font-weight: 600;
-  /* margin-bottom: 10px; */
   text-decoration: underline;
 }
+
+/* --------------------------------------
+#main .wrapper .right-column .gray-zone
+-----------------------------------------*/
 
 #main .wrapper .right-column .gray-zone {
   width: 100%;
@@ -540,6 +572,10 @@ img {
   width: 100%;
   margin-bottom: 15px;
 }
+
+/* --------------------------------------
+#main .wrapper .right-column .online-store
+-----------------------------------------*/
 
 #main .wrapper .right-column .online-store {
   width: 100%;
@@ -562,7 +598,7 @@ img {
 }
 
 /* --------------------------------------
-#footer
+#footer .footer-nav
 -----------------------------------------*/
 
 #footer .footer-nav {
@@ -610,6 +646,10 @@ img {
   border-right: 2px solid #C6C6C6;
 }
 
+/* --------------------------------------
+#footer .footer-container
+-----------------------------------------*/
+
 #footer .footer-container {
   padding: 60px 0;
   background-color: #fff;
@@ -617,7 +657,6 @@ img {
 
 #footer .footer-container .footer-container-in {
   display: flex;
-  /* justify-content: space-between; */
   max-width: 800px;
   margin: 0 auto 50px auto;
 }
@@ -647,6 +686,10 @@ img {
   margin: 0 auto;
 }
 
+/* --------------------------------------
+@media screen and (max-width: 1570px)
+-----------------------------------------*/
+
 @media screen and (max-width: 1570px) {
 
   #header .header-long-block .header-long-block-in p {
@@ -659,7 +702,6 @@ img {
 
   #main .wrapper {
     margin-bottom:0;
-    /* padding:0 3% 100px 3%; */
   }
 
   #main .wrapper .left-column #courses .section-contents .description p {
@@ -711,6 +753,10 @@ img {
   }
 
 }
+
+/* --------------------------------------
+@media screen and (max-width: 1200px)
+-----------------------------------------*/
 
 @media screen and (max-width: 1200px) {
 
@@ -794,6 +840,10 @@ img {
   }
 
 }
+
+/* --------------------------------------
+@media screen and (max-width: 970px)
+-----------------------------------------*/
 
 @media screen and (max-width: 970px) {
 
@@ -932,6 +982,10 @@ img {
 
 }
 
+/* --------------------------------------
+@media screen and (max-width: 640px)
+-----------------------------------------*/
+
 @media screen and (max-width: 640px) {
 
   #header .header-long-block .header-long-block-in p {
@@ -964,7 +1018,6 @@ img {
 
   #header .header-main-visual .header-main-visual-in img {
     width: 100%;
-    /* max-width: 1920px; */
     height: 364px;
     object-fit: none;
   }
@@ -1079,6 +1132,10 @@ img {
   }
 
 }
+
+/* --------------------------------------
+@media screen and (max-width: 590px)
+-----------------------------------------*/
 
 @media screen and (max-width: 590px) {
 
